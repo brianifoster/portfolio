@@ -3,70 +3,109 @@
     <link ref="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="js/script.js">
+    <link rel="stylesheet" href="css/3-col-portfolio.css>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat" rel="stylesheet">   <title>Hanai design | tech</title>
 </head>
 <body>
 
-<!-- Start NavBar Section -->
-<nav class="navbar navbar-default" role="navigation">
-  <div class="container">
-  <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+  <header>
+
+<!-- copied from: https://getbootstrap.com/components/#navbar -->
+  <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-    <div class="navbar-brand navbar-brand-centered">Brand</div>
-  </div>
-  <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="collapse navbar-collapse" id="navbar-brand-centered">
-    <ul class="nav navbar-nav">
-      <li><a href="#">Link</a></li>
-      <li><a href="#">Link</a></li>
-      <li><a href="#">Link</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="#">Link</a></li>
-      <li><a href="#">Link</a></li>
-      <li><a href="#">Link</a></li>
-    </ul>
-  </div><!-- /.navbar-collapse -->
-</div><!-- /.container-fluid -->
-</nav>
-<!-- End NavBar Section -->
+          <a class="navbar-brand" href="#">
+            <img class="nav-logo" src="Images/logo.png" alt="logo">
+          </a>
+      </div>
 
-<!-- Start Hero Section -->
-<div class="homepage-hero-module">
-    <div class="video-container">
-        <div class="filter"></div>
-        <video autoplay loop class="fillWidth">
-            <source src="MP4/BnW.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-            <source src="WEBM/BnW.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
-        <div class="poster hidden">
-            <img src="Snapshots/BnW.jpg" alt="BnW">
-        </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="smooth-scroll" href="#one">Home</a></li>
+          <li><a class="smooth-scroll" href="#two">Work</a></li>
+          <li><a class="smooth-scroll" href="#three">Services</a></li>
+          <li><a class="smooth-scroll" href="#four">About</a></li>
+          <li><a class="smooth-scroll" href="#five">Follow</a></li>
+          <li><a class="smooth-scroll" href="#six">Contact</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
     </div>
-</div>
-<!-- End Hero Section -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-<script
-    src="https://code.jquery.com/jquery-3.2.1.min.js"
-    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-    crossorigin="anonymous">
-</script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous">
-</script>
+    <!-- /.container-fluid -->
+  </nav>
+</header>
+<main class="container-fluid">
+  <section id="one" class="row hero">
+    <div class="col-md-12">
+      <h2>FULLY RESPONSIVE, CUSTOM-DESIGNED WEBSITES</h2>
+    </div>
+    <div class="intro">
+      <p class="intro-text">Hanai design | tech is dedicated to creating <span class="emphasis">smart</span>, <span class="emphasis">beautiful</span>, and <span class="emphasis">creative</span> websites<br>for small businesses. Below are a few services we provide:</p>
+    </div>
+  </section>
+  <section id="two" class="row">
+    <div class="row">
+      <div class="col-md-4 portfolio-item">
+        <a href="#">
+          <img class="img-responsive port-one" src="http://placehold.it/700x400" alt="">
+        </a>
+        <h3>
+          <a class="portfolio-heading" href="#">CCMRS</a>
+        </h3>
+        <p class="portfolio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+      </div>
+      <div class="col-md-4 portfolio-item">
+        <a href="#">
+          <img class="img-responsive" src="http://placehold.it/700x400" alt="">
+        </a>
+        <h3>
+          <a class="portfolio-heading" href="#">Highview Bible Church</a>
+        </h3>
+        <p class="portfolio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+      </div>
+      <div class="col-md-4 portfolio-item">
+        <a href="#">
+          <img class="img-responsive port-three" src="https://pailolo.com/uploads/Puna-Unlimited-Mixed-2015.jpg" alt="canoe">
+        </a>
+        <h3>
+          <a class="portfolio-heading" href="#">Kahana Canoe Club</a>
+        </h3>
+        <p class="portfolio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+      </div>
+    </div>
+  </section>
+  <section id="three" class="row">
+  </section>
+  <section id="four" class="row">
+  </section>
+  <section id="five" class="row">
+  </section>
+  <section id="six" class="row">
+  </section>
+</main>
+<footer></footer>
 
 
-<script type="text/javascript">
-$(document).ready(function(){
-
-});
-</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+  </script>
+  <script src="js/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous">
+  </script>
+  <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="js/script.js">
 </body>
 </html>

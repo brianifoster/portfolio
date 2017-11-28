@@ -1,0 +1,107 @@
+body {
+  position: relative;
+  background-color: #144184;
+  color: #fff;
+  margin: 0px 0px 0px 0px;
+  padding-top: 70px;
+}
+section {
+  border-bottom: 1px solid #ddd;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  min-height: 50vh;
+  padding-bottom: 50px;
+  margin-top: -50px;
+  text-align: center;
+}
+
+section h2 {
+  background-color: rgba(0,0,0,.5);
+  display: inline-block;
+  padding: .5em 1em;
+  border-radius: 5px;
+  margin-top: 200px;
+}
+
+.intro {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.intro a {
+  color: #fff;
+}
+
+.intro-text {
+  background-color: rgba(0,0,0,.5);
+  display: inline-block;
+  padding: .5em 1em;
+  border-radius: 5px;
+  font-family: 'Merriweather', serif;
+}
+
+.emphasis {
+  font-weight: bolder;
+  font-size: 20px;
+  color: #cc0000;
+}
+.nav-logo {
+  margin: -15px 0px 0px -15px;
+}
+
+.hero {
+  background-image: url(https://unsplash.it/1280/1024?random&sig=1);
+  background-size: cover;
+  background-position: center center;
+}
+.port-three {
+  background-size: contain;
+  background-position: center center;
+  margin-top: 15px;
+}
+
+.portfolio-heading {
+  background-color: rgba(0,0,0,.5);
+  display: block;
+  padding: .5em 1em;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.portfolio-text {
+  background-color: rgba(0,0,0,.5);
+  display: block;
+  padding: .5em 1em;
+  border-radius: 5px;
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+}
+#two {
+  background-image: url(https://unsplash.it/1280/1024?random&sig=2);
+  background-size: cover;
+  background-position: center center;
+}
+
+#three {
+  background-image: url(https://unsplash.it/1280/1024?random&sig=3);
+  background-size: cover;
+  background-position: center center;
+}
+#four {
+  background-image: url(https://unsplash.it/1280/1024?random&sig=4);
+  background-size: cover;
+  background-position: center center;
+}
+#five {
+  background-image: url(https://unsplash.it/1280/1024?random&sig=5);
+  background-size: cover;
+  background-position: center center;
+}
+#six {
+  background-image: url(https://unsplash.it/1280/1024?random&sig=6);
+  background-size: cover;
+  background-position: center center;
+}
