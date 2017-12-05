@@ -1,106 +1,105 @@
 body {
   position: relative;
   background-color: #144184;
-  color: #fff;
+  color: #333;
   margin: 0px 0px 0px 0px;
   padding-top: 70px;
 }
 section {
   border-bottom: 1px solid #ddd;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 32px;
+  font-family: 'Montserrat', serif;
+  font-size: 14px;
+  text-align: center;
   min-height: 50vh;
-  padding-bottom: 50px;
-  margin-top: -50px;
+  margin-top: 0px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+}
+h3 a {
+  background-color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 5px 5px;
+  font-family: 'Merriweather', serif;
+  margin-top: -15px;
   text-align: center;
 }
 
-section h2 {
-  background-color: rgba(0,0,0,.5);
-  display: inline-block;
-  padding: .5em 1em;
-  border-radius: 5px;
-  margin-top: 200px;
-}
-
-.intro {
+h3 a:hover {
+  background-color: #cc0000;
+  border-radius: 15px;
   color: #fff;
-  font-size: 16px;
-  margin-bottom: 2em;
-  margin-top: 2em;
-}
-
-.intro a {
-  color: #fff;
-}
-
-.intro-text {
-  background-color: rgba(0,0,0,.5);
-  display: inline-block;
-  padding: .5em 1em;
-  border-radius: 5px;
-  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  padding: 5px;
 }
 
 .emphasis {
-  font-weight: bolder;
   font-size: 20px;
   color: #cc0000;
 }
+
 .nav-logo {
   margin: -15px 0px 0px -15px;
 }
 
-.hero {
+#hero {
   background-image: url(https://unsplash.it/1280/1024?random&sig=1);
   background-size: cover;
   background-position: center center;
-}
-.port-three {
-  background-size: contain;
-  background-position: center center;
-  margin-top: 15px;
-}
-
-.portfolio-heading {
-  background-color: rgba(0,0,0,.5);
-  display: block;
-  padding: .5em 1em;
-  border-radius: 5px;
-  font-family: 'Montserrat', sans-serif;
+  margin-top: -50px;
   color: #fff;
 }
 
-.portfolio-text {
+#hero h3 {
   background-color: rgba(0,0,0,.5);
-  display: block;
-  padding: .5em 1em;
-  border-radius: 5px;
-  font-family: 'Merriweather', serif;
-  font-size: 14px;
-}
-#two {
-  background-image: url(https://unsplash.it/1280/1024?random&sig=2);
-  background-size: cover;
-  background-position: center center;
+  display: inline-block;
+  margin-top: 20%;
+  padding: 15px;
+  border-radius: 15px;
 }
 
-#three {
+#hero p {
+  background-color: rgba(0,0,0,.5);
+  display: inline-block;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+#work {
+  background-color: #fff;
+  padding: 10px;
+}
+
+#work img {
+  border: 2px solid #cc0000;
+  border-radius: 15px;
+}
+
+#work h3 a {
+  color: #cc0000;
+}
+
+#work h3 a:hover {
+  color: #fff;
+}
+#services {
   background-image: url(https://unsplash.it/1280/1024?random&sig=3);
   background-size: cover;
   background-position: center center;
 }
-#four {
+#about {
   background-image: url(https://unsplash.it/1280/1024?random&sig=4);
   background-size: cover;
   background-position: center center;
 }
-#five {
+#follow {
   background-image: url(https://unsplash.it/1280/1024?random&sig=5);
   background-size: cover;
   background-position: center center;
 }
-#six {
+#contact {
   background-image: url(https://unsplash.it/1280/1024?random&sig=6);
   background-size: cover;
   background-position: center center;
