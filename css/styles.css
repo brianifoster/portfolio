@@ -204,7 +204,26 @@ section {
 
 
 /** About Styles **/
+#about {
+  background-color: #800000;
+  color: #fff;
+  display: inline-block;
+  text-align: right;
+}
 
+#about h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+}
+#about p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+#about img {
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
 /** End About Styles **/
 
 /** Follow Styles **/
