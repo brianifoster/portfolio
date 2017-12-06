@@ -4,11 +4,12 @@ body {
 }
 
 section {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #800000;
   min-height: 50vh;
   margin-top: 0px;
   margin-left: -15px;
   margin-right: -15px;
+  font-size: 18px;
 }
 
 
@@ -25,9 +26,10 @@ section {
   background-size: cover;
   background-position: center center;
   text-align: center;
-  margin-top: -50px;
+  margin-top: 0;
   color: #fff;
   padding-top: 15%;
+  padding-bottom: 15%;
 }
 
 #hero h3 {
@@ -44,7 +46,7 @@ section {
   border-radius: 15px;
   padding: 15px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .emphasis {
@@ -54,55 +56,10 @@ section {
 /** End Hero Styles **/
 
 
-/** Work Styles **/
-#work {
-  background-color: #800000;
-  padding: 10px;
-  text-align: center;
-}
-
-#work img {
-  border: 5px solid #fff;
-  border-radius: 15px;
-  opacity: 0.7;
-  filter: alpha(opacity=70);
-  margin: 0px;
-}
-
-#work img:hover {
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-
-#work h3 a {
-  color: #fff;
-  padding: 5px;
-  display: inline-block;
-  border-radius: 15px;
-  font-family: 'Merriweather', serif;
-}
-
-#work h3 a:hover {
-  color: #800000;
-  background-color: #fff;
-  text-decoration: none;
-}
-
-#work p {
-  display: inline-block;
-  text-align: justify;
-  color: #fff;
-  padding: 0px 5px 0px 5px;
-}
-/** End Work Styles **/
-
-
 /** Services Styles **/
 #services {
-  background-image: url(https://unsplash.it/1280/1024?random&sig=3);
-  background-size: cover;
-  background-position: center center;
-  padding-top: 5%;
+  padding-top: 7%;
+  padding-bottom: 10%;
 }
 .serviceBox{
     text-align: center;
@@ -114,10 +71,11 @@ section {
     width: 78px;
     height: 78px;
     border-radius:3px;
+    border: 2px solid #800000;
     background: #fff;
     margin: 0 auto;
     position: absolute;
-    top: -34px;
+    top: -38px;
     left: 0;
     right: 0;
     z-index: 1;
@@ -176,7 +134,7 @@ section {
 }
 .serviceBox .title {
     font-family: 'Merriweather', serif;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
     color: #333;
     text-transform: uppercase;
@@ -188,7 +146,7 @@ section {
     color: #800000;
 }
 .serviceBox .description{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 24px;
     margin-bottom: 0;
@@ -200,7 +158,7 @@ section {
     line-height: 35px;
     border-radius: 50%;
     background: #fff;
-    border: 1px solid #e7e7e7;
+    border: 1px solid #800000;
     font-size: 14px;
     color: #c4c2c2;
     margin: 0 auto;
@@ -213,6 +171,7 @@ section {
 .serviceBox .read-more:hover{
     border: 1px solid #800000;
     color: #800000;
+    text-decoration: none;
 }
 .serviceBox.green .service-icon span{ background: #800000; }
 .serviceBox.blue .service-icon span{ background: #800000; }
@@ -244,56 +203,55 @@ section {
 /** End Services Styles **/
 
 
-/** About/Follow Styles **/
-.halfbox-section .fa {
-  font-size: 72px;
-  margin-top: 20px;
-}
-.halfbox-left {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    display: inline-block;
-    padding: 7px 15px;
-    border: 1px solid #fff;
-    color: #fff;
+/** About Styles **/
 
-}
+/** End About Styles **/
 
+/** Follow Styles **/
 
-.halfbox-left {
-    background: #800000;
-    min-height: 400px;
-    padding: 120px;
-    text-align: center;
-}
-.site-title h3 {
-    font-family: 'Merriweather', serif;
-    color: #fff;
-    margin-bottom: 0.4em;
+/** End Follow Styles **/
+/** Work Styles **/
+#portfolio {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
-.site-title p {
-    font-size: 14px;
-    color: #e4e2e2;
-    text-align: center;
-    line-height: 27px;
-}
-.video {
-    background: url(../images/about_me.jpg);
-    min-height: 400px;
-    background-size: cover;
-    text-align: center;
+#portfolio img {
+  border: 5px solid #800000;
+  border-radius: 15px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  margin: 0px;
 }
 
-.video2 {
-    background: url(../images/family.jpg);
-    min-height: 400px
-    background-size: cover;
-    padding: 200px 0px;
-    text-align: center;
+#portfolio img:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
 }
-/** End About/Follow Styles **/
 
+#portfolio h3 a {
+  color: #800000;
+  padding: 5px 10px 5px 10px;
+  display: inline-block;
+  border-radius: 15px;
+  font-family: 'Merriweather', serif;
+}
+
+#portfolio h3 a:hover {
+  color: #fff;
+  background-color: #800000;
+  text-decoration: none;
+}
+
+#portfolio p {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  padding: 0px 5px 0px 5px;
+}
+/** End Work Styles **/
 
 #contact {
   background-image: url(https://unsplash.it/1280/1024?random&sig=6);
