@@ -27,6 +27,7 @@ section {
   text-align: center;
   margin-top: -50px;
   color: #fff;
+  padding-top: 15%;
 }
 
 #hero h3 {
@@ -35,7 +36,6 @@ section {
   padding: 15px;
   border-radius: 15px;
   font-family: 'Merriweather', serif;
-  margin-top: 20%;
 }
 
 #hero p {
@@ -102,6 +102,7 @@ section {
   background-image: url(https://unsplash.it/1280/1024?random&sig=3);
   background-size: cover;
   background-position: center center;
+  padding-top: 5%;
 }
 .serviceBox{
     text-align: center;
@@ -150,7 +151,7 @@ section {
 }
 .serviceBox .service-content{
     background: #fff;
-    border: 1px solid #e7e7e7;
+    border: 2px solid #800000;
     border-radius: 3px;
     padding: 55px 15px;
     position: relative;
@@ -173,10 +174,11 @@ section {
 .serviceBox:hover .service-content:before{
     transform: rotate(45deg);
 }
-.serviceBox .title{
+.serviceBox .title {
+    font-family: 'Merriweather', serif;
     font-size: 17px;
     font-weight: 500;
-    color: #324545;
+    color: #333;
     text-transform: uppercase;
     margin: 0 0 25px 0;
     position: relative;
@@ -242,17 +244,57 @@ section {
 /** End Services Styles **/
 
 
+/** About/Follow Styles **/
+.halfbox-section .fa {
+  font-size: 72px;
+  margin-top: 20px;
+}
+.halfbox-left {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    padding: 7px 15px;
+    border: 1px solid #fff;
+    color: #fff;
 
-#about {
-  background-image: url(https://unsplash.it/1280/1024?random&sig=4);
-  background-size: cover;
-  background-position: center center;
 }
-#follow {
-  background-image: url(https://unsplash.it/1280/1024?random&sig=5);
-  background-size: cover;
-  background-position: center center;
+
+
+.halfbox-left {
+    background: #800000;
+    min-height: 400px;
+    padding: 120px;
+    text-align: center;
 }
+.site-title h3 {
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    margin-bottom: 0.4em;
+}
+
+.site-title p {
+    font-size: 14px;
+    color: #e4e2e2;
+    text-align: center;
+    line-height: 27px;
+}
+.video {
+    background: url(../images/about_me.jpg);
+    min-height: 400px;
+    background-size: cover;
+    text-align: center;
+}
+
+.video2 {
+    background: url(../images/family.jpg);
+    min-height: 400px
+    background-size: cover;
+    padding: 200px 0px;
+    text-align: center;
+}
+/** End About/Follow Styles **/
+
+
 #contact {
   background-image: url(https://unsplash.it/1280/1024?random&sig=6);
   background-size: cover;
