@@ -58,12 +58,13 @@ section {
 
 /** Services Styles **/
 #services {
-  padding-top: 7%;
+  padding-top: 10%;
   padding-bottom: 10%;
+  min-height: 25vh;
 }
 .serviceBox{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 0px;
     position: relative;
     z-index: 1;
 }
@@ -195,7 +196,7 @@ section {
   margin-top: 15px;
 }
 @media only screen and (max-width: 990px){
-    .serviceBox{ margin-bottom: 30px; }
+    .serviceBox{ margin-bottom: 70px; }
 }
 @media only screen and (max-width: 767px){
     .serviceBox{ margin-bottom: 80px; }
@@ -206,19 +207,34 @@ section {
 /** About Styles **/
 .halfbox-left {
     display: inline-block;
-    padding: 100px 100px 100px 100px;
+    padding: 50px 100px 50px 100px;
     color: #fff;
     background: #800000;
     min-height: 400px;
     text-align: center;
 }
+.social-row {
+  margin-top: 20px;
+  text-align: center;
+}
+#about a {
+  margin-top: 20px;
+  font-size: 2.5em;
+  padding-right: .5em;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+#about a:hover {
+  color: #333;
+}
 
 .halfbox-right {
     background: url(../images/developer-tools.png) no-repeat 0px 0px;
     min-height: 400px;
-    background-size: cover;
-    padding: 168px 0px;
-    text-align: center;
+    background-size: contain;
+    background-position: center;
     background-color: #800000;
 }
 
@@ -227,6 +243,7 @@ section {
     margin-bottom: 30px;
     font-family: 'Merriweather', serif;
     font-size: 28px;
+
 }
 
 .site-title p {
@@ -234,6 +251,7 @@ section {
     color: #e4e2e2;
     text-align: center;
     line-height: 20px;
+    padding-bottom: 30px;
 }
 .img-right {
     background: url(../images/about_me.jpg) no-repeat 0px 0px;
