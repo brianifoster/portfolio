@@ -204,25 +204,51 @@ section {
 
 
 /** About Styles **/
-#about {
-  background-color: #800000;
-  color: #fff;
-  display: inline-block;
-  text-align: right;
+.halfbox-left {
+    display: inline-block;
+    padding: 100px 100px 100px 100px;
+    color: #fff;
+    background: #800000;
+    min-height: 400px;
+    text-align: center;
 }
 
-#about h3 {
-  font-family: 'Merriweather', serif;
-  font-size: 24px;
-}
-#about p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+.halfbox-right {
+    background: url(../images/developer-tools.png) no-repeat 0px 0px;
+    min-height: 400px;
+    background-size: cover;
+    padding: 168px 0px;
+    text-align: center;
+    background-color: #800000;
 }
 
-#about img {
-  border-radius: 50%;
-  border: 2px solid #fff;
+.site-title h3 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-family: 'Merriweather', serif;
+    font-size: 28px;
+}
+
+.site-title p {
+    font-size: 18px;
+    color: #e4e2e2;
+    text-align: center;
+    line-height: 20px;
+}
+.img-right {
+    background: url(../images/about_me.jpg) no-repeat 0px 0px;
+    min-height: 400px;
+    background-size: cover;
+    padding: 168px 0px;
+    text-align: center;
+}
+
+.img-left {
+    background: url(../images/sandy_feet.jpg) no-repeat 0px 0px;
+    min-height: 400px;
+    background-size: cover;
+    padding: 168px 0px;
+    text-align: center;
 }
 /** End About Styles **/
 
