@@ -17,6 +17,10 @@ section {
 .nav-logo {
   margin: -15px 0px 0px -15px;
 }
+
+.nav {
+  font-family: 'Montserrat', sans-serif;
+}
 /** End NavBar Styles **/
 
 
