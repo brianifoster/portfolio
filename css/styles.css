@@ -235,7 +235,7 @@ section {
 }
 
 .halfbox-right {
-    background: url(../images/developer-tools.png) no-repeat 0px 0px;
+    background: url() no-repeat 0px 0px;
     min-height: 400px;
     background-size: contain;
     background-position: center;
