@@ -3,7 +3,7 @@ body {
   margin: 0px 0px 0px 0px;
 }
 
-section {
+section:not(#about) {
   border-bottom: 1px solid #800000;
   min-height: 50vh;
   margin-top: 0px;
@@ -14,12 +14,23 @@ section {
 
 
 /** NavBar Styles **/
-.nav-logo {
-  margin: -15px 0px 0px -15px;
+.navbar {
+    min-height: 80px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
 }
 
-.nav {
-  font-family: 'Montserrat', sans-serif;
+.navbar-nav > li > a {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.navbar-right {
+  margin-right: 94px;
+}
+.nav-logo {
+  margin: 0px 0px 0px 94px;
 }
 /** End NavBar Styles **/
 
@@ -40,14 +51,12 @@ section {
   background-color: rgba(0,0,0,.8);
   display: inline-block;
   padding: 15px;
-  border-radius: 15px;
   font-family: 'Merriweather', serif;
 }
 
 #hero p {
   background-color: rgba(0,0,0,.8);
   display: inline-block;
-  border-radius: 15px;
   padding: 15px;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
@@ -76,7 +85,7 @@ section {
     width: 78px;
     height: 78px;
     border-radius:3px;
-    border: 2px solid #800000;
+    border: 2px solid #cc0000;
     background: #fff;
     margin: 0 auto;
     position: absolute;
@@ -95,7 +104,7 @@ section {
     height: 60px;
     line-height: 60px;
     border-radius:3px;
-    background: #800000;
+    background: #cc0000;
     font-size: 30px;
     color: #fff;
     margin: auto;
@@ -114,7 +123,7 @@ section {
 }
 .serviceBox .service-content{
     background: #fff;
-    border: 2px solid #800000;
+    border: 2px solid #cc0000;
     border-radius: 3px;
     padding: 55px 15px;
     position: relative;
@@ -148,7 +157,7 @@ section {
     transition: all 0.3s ease-out 0s;
 }
 .serviceBox:hover .title{
-    color: #800000;
+    color: #cc0000;
 }
 .serviceBox .description{
     font-size: 18px;
@@ -163,7 +172,7 @@ section {
     line-height: 35px;
     border-radius: 50%;
     background: #fff;
-    border: 1px solid #800000;
+    border: 1px solid #cc0000;
     font-size: 14px;
     color: #c4c2c2;
     margin: 0 auto;
@@ -174,27 +183,27 @@ section {
     transition: all 0.3s ease-out 0s;
 }
 .serviceBox .read-more:hover{
-    border: 1px solid #800000;
-    color: #800000;
+    border: 1px solid #cc0000;
+    color: #cc0000;
     text-decoration: none;
 }
-.serviceBox.green .service-icon span{ background: #800000; }
-.serviceBox.blue .service-icon span{ background: #800000; }
-.serviceBox.orange .service-icon span{ background: #800000; }
-.serviceBox.green:hover .title{ color: #800000; }
-.serviceBox.blue:hover .title{ color: #800000; }
-.serviceBox.orange:hover .title{ color: #800000; }
+.serviceBox.green .service-icon span{ background: #cc0000; }
+.serviceBox.blue .service-icon span{ background: #cc0000; }
+.serviceBox.orange .service-icon span{ background: #cc0000; }
+.serviceBox.green:hover .title{ color: #cc0000; }
+.serviceBox.blue:hover .title{ color: #cc0000; }
+.serviceBox.orange:hover .title{ color: #cc0000; }
 .serviceBox.green .read-more:hover{
-    border: 1px solid #800000;
-    color: #800000;
+    border: 1px solid #cc0000;
+    color: #cc0000;
 }
 .serviceBox.blue .read-more:hover{
-    border: 1px solid #800000;
-    color: #800000;
+    border: 1px solid #cc0000;
+    color: #cc0000;
 }
 .serviceBox.orange .read-more:hover{
-    border: 1px solid #800000;
-    color: #800000;
+    border: 1px solid #cc0000;
+    color: #cc0000;
 }
 #services .fa {
   margin-top: 15px;
@@ -213,7 +222,7 @@ section {
     display: inline-block;
     padding: 50px 100px 50px 100px;
     color: #fff;
-    background: #800000;
+    background: #cc0000;
     min-height: 400px;
     text-align: center;
 }
