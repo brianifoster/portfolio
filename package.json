@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "professional work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianifoster/portfolio.git"
+  },
+  "author": "Brian Foster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianifoster/portfolio/issues"
+  },
+  "homepage": "https://github.com/brianifoster/portfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
